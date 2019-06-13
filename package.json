@@ -1,0 +1,16 @@
+{
+	"name": "versasite",
+	"version": "1.0.0",
+	"description": "Versattily CMS",
+	"main": "assets/vendor/enduro/index.js",
+	"scripts": {
+		"postinstall": "node_modules/bower/bin/bower install --silent",
+		"start": "node_modules/.bin/enduro start"
+	},
+	"author": "MSA",
+	"license": "ISC",
+	"dependencies": {
+		"bower": "^1.7.7",
+		"enduro": "1.4.23"
+	}
+}
